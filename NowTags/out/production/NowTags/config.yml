@@ -1,0 +1,44 @@
+settings:
+  formatted-tags:
+    - name: "Master"
+      color: "§6[Master]"
+    - name: "Admin"
+      color: "§c[Admin]"
+    - name: "Moderador"
+      color: "§2[Moderador]"
+
+  tag-apply-cmd: "lp user %player% group set %tag%"
+  tag-remove-cmd: "lp user %player% group set %tag%"
+
+#Esta database é MySQL.
+database:
+  host: yourHost
+  port: yourPort
+  database: yourDatabase
+  username: yourUsername
+  password: yourPassword
+
+#Wiki do Plugin:
+
+#Permissões:
+# /tags ajuda - NowEssentials.comandos.ajuda
+# /tags usar <tag> - NowEssentials.comandos.usar
+# /tags adicionar <jogador> <tag> - NowEssentials.comandos.adicionar
+# /tags remover <jogador> <tag> -NowEssentials.comandos.remover
+
+#Placeholders:
+#%prefix% - Prefixo do plugin.
+#%player% - Pega o jogador do argumento.
+#%next_tag% - A tag que foi escolhida.
+#%old_tag% - A tag anterior escolhida. (DESATIVADO TEMPORARIAMENTE!)
+#%list_tag% - Mostrará todas as tags, mas (DESATIVADO TEMPORARIAMENTE!)
+#utilizar o \n antes disto irá pular cada (DESATIVADO TAMBÉM!)
+#linha para não ficar estranho.
+messages:
+  prefixo: "&b[NowTags]"
+  tagChange: "%prefix% &aVocê mudou a sua tag para: %next_tag%"
+  tagList: "%prefix% &aSuas tags são: \n%list_tag%"
+
+  tagadd: "%prefix% &aVocê adicionou a tag: %next_tag% &apara &e%player%&a!"
+  tagremove: "%prefix% &aVocê removeu a tag: %next_tag% &ade &e%player%&a!"
+  dontHas: "%prefix% &cVocê não tem esta tag, caso tenha, certifique-se de tê-la escrito corretamente!"
