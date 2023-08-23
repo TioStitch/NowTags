@@ -1,9 +1,0 @@
-name: NowTags
-version: 1.0
-author: [TioStitch]
-main: de.tiostitch.tags.Main
-description: Um sistema de tags controláveis.
-commands:
-  tags:
-    aliases: [trocartag, mudartag]
-    permission: NowTags.tags
