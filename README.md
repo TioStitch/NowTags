@@ -4,6 +4,10 @@ Um sistema customizável para trocar a tag dos jogadores dentro do jogo, é clar
 - PermissionEX
 - GroupManager
 
+Suportes de Dados:
+- MYSQL (Uso de Databases)
+- YAML (Criação de Pastas)
+
 Funções específicas:
 - Você pode **Mudar** literalmente a cor das suas tags na mensagem, na configuração tags específicas podem ter cores, e para resolver certos problemas na adição/remoção de tags você é obrigado a específicar a tag na forma correta, por exemplo a tag é 'Master', você não pode chama-lá de master, não será a mesma, a não ser que tudo indique que é a mesma.
 
